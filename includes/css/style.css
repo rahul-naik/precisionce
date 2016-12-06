@@ -1,6 +1,12 @@
 
 
-
+html { 
+  background: url('../images/bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 html body{font-family:"Segoe UI"; font-size:13px; color:#333;}
 .logo{
     display: block;
@@ -11,12 +17,9 @@ html body{font-family:"Segoe UI"; font-size:13px; color:#333;}
     background: url(../images/logo.png) 0 0 no-repeat;
 }
 nav{
-    /*height:97px;*/
     background: #35b0d4;
 }
-nav .container{
-    /*padding-top:20px;*/
-}
+
 .navbar-toggle .icon-bar{
     background: #fff;
 }
@@ -34,4 +37,19 @@ button.navbar-toggle{
     nav .container{
         padding-top:20px;
     }
+    .hSocial{overflow: hidden;width: 600px; float: right;}
+    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;}
+    .hSocialL span{display:inline-block; padding:0 5px 0 20px;}
+    .hSocialL span a{color:#333;}
+    .hSocialL span.msg{background:url(../images/msg.png) 0 center no-repeat;}
+    .hSocialL span.mail{background:url(../images/mail.png) 0 center no-repeat;}
+    .hSocialL span.phone{background:url(../images/phone.png) 0 center no-repeat;}
+
+    .hSocialR a{display:inline-block; width:24px; height:24px; margin:2px 0 0 8px; background:url(../images/social.png) 0 0 no-repeat;}
+    .hSocialR a.fb{background-position:0 0}
+    .hSocialR a.google{background-position:-34px 0}
+    .hSocialR a.twitter{background-position:-68px 0}
+    .hSocialR a.link{background-position:-102px 0}
+    .hSocialR a.pin{background-position:-136px 0}
+    .hSocialR a.rss{background-position:-170px 0}
  }
