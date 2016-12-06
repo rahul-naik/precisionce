@@ -1,0 +1,37 @@
+
+
+
+html body{font-family:"Segoe UI"; font-size:13px; color:#333;}
+.logo{
+    display: block;
+    height: 69px;
+    overflow: hidden;
+    float:left;
+    width:245px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+}
+nav{
+    /*height:97px;*/
+    background: #35b0d4;
+}
+nav .container{
+    /*padding-top:20px;*/
+}
+.navbar-toggle .icon-bar{
+    background: #fff;
+}
+button.navbar-toggle{
+    margin-top: 17px;
+}
+.nav>li>a{display:block; text-transform:uppercase; color:#FFF; font-size:18px;}
+.nav>li>a:focus, .nav>li>a:hover{color:#030F3A;background:transparent !important;}
+
+/*Desk/ tablet Media queries*/
+ @media only screen and (min-width : 768px) {
+     nav{
+        height:97px;
+    }
+    nav .container{
+        padding-top:20px;
+    }
+ }
