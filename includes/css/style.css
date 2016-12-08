@@ -8,6 +8,9 @@ html {
   background-size: cover;
 }
 html body{font-family:"Segoe UI"; font-size:13px; color:#333;}
+ul, ol {
+    list-style: none;
+}
 .logo{
     display: block;
     height: 69px;
@@ -29,6 +32,32 @@ button.navbar-toggle{
 .nav>li>a{display:block; text-transform:uppercase; color:#FFF; font-size:18px;}
 .nav>li>a:focus, .nav>li>a:hover{color:#030F3A;background:transparent !important;}
 
+/***footer*/
+footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repeat;}
+.fData h4 {
+    color: #FFF;
+    padding: 0 0 10px 0;
+}
+.fData h4 {
+    font-family: "Segoe UI Light";
+    font-size: 24px;
+    font-weight: normal;
+}
+.fLeft p{font-size:14px; color:#888888; padding:0 0 10px 25px;}
+.fLeft p.add{background:url(../images/loc.png) 0 5px no-repeat;}
+.fLeft p.cont{background:url(../images/fPhone.png) 0 5px no-repeat;}
+.fLeft p.email{background:url(../images/fMsg.png) 0 5px no-repeat;}
+.fMid li{padding:0 0 2px 0;}
+.fMid a{color:#888888; font-size:14px;}
+.fMid a:hover{text-decoration:underline;}
+
+.fRight p{clear:both; padding:0 0 10px 0}
+.fRight  input[type="text"],.fRight  textarea{width:100%;vertical-align:top; color:#999999; background:#666666; border:1px solid #666666; font-family:"Segoe UI"; font-size:14px;  margin:0 5px 0 0; padding:5px; cursor:text}
+.fRight .row{margin-bottom:10px;}
+.fRight  textarea{height:70px;resize:none}
+.fRight  input[type="button"]{cursor:pointer; background:#088add; color:#FFF; font-size:13px; padding:8px 30px; border:none; overflow:visible; line-height:1.2}
+.fRight  input[type="button"]::-moz-focus-inner{border:0; padding:0;}
+.copy{text-align:center; color:#888; padding:15px 0;}
 /*Desk/ tablet Media queries*/
  @media only screen and (min-width : 768px) {
      nav{
@@ -37,8 +66,8 @@ button.navbar-toggle{
     nav .container{
         padding-top:20px;
     }
-    .hSocial{overflow: hidden;width: 600px; float: right;}
-    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;}
+    .hSocial{overflow: hidden;float: right;}
+    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;    margin-right: 56px;}
     .hSocialL span{display:inline-block; padding:0 5px 0 20px;}
     .hSocialL span a{color:#333;}
     .hSocialL span.msg{background:url(../images/msg.png) 0 center no-repeat;}
