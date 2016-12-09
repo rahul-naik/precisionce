@@ -22,10 +22,12 @@ ul, ol {
     overflow: hidden;
     float:left;
     width:245px;
+    position: relative;
     background: url(../images/logo.png) 0 0 no-repeat;
 }
 nav{
     background: #35b0d4;
+    position: static !important;
     border-radius: 0 !important;
     margin-bottom: 0 !important;
 }
@@ -40,7 +42,7 @@ button.navbar-toggle{
 .nav>li>a:focus, .nav>li>a:hover{color:#030F3A;background:transparent !important;}
 
 /***footer*/
-footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repeat;}
+footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repeat;position:relative;}
 .fData h4 {
     color: #FFF;
     padding: 0 0 10px 0;
@@ -50,7 +52,7 @@ footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repea
     font-size: 24px;
     font-weight: normal;
 }
-
+.bodyBg{position:fixed; top:0; left:0; width:100%; height:100%; text-align:center}
   .hSocialR a{display:inline-block; width:24px; height:24px; margin:2px 0 0 8px; background:url(../images/social.png) 0 0 no-repeat;}
     .hSocialR a.fb{background-position:0 0}
     .hSocialR a.google{background-position:-34px 0}
@@ -174,7 +176,7 @@ p.more a{display:inline-block; color:#333; font-size:14px; background:url(../ima
  /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
         .nav>li>a{padding:5px 11px;font-size: 18px;}
-         .logo{width: 245px;background-size: 100%;}
+         .logo{width: 245px;background-size: 100%;position: relative;}
         .hSocialL{ margin-right: 56px;}
         .main-bg{height:332px;}
         .motar-image{position: relative;z-index: 1;width:335px}
