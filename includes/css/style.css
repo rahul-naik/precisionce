@@ -146,7 +146,27 @@ div.productRow img{padding:0;}
 .productRow{padding:15px 0;}
 .productRow div a{display: inline-block;width:100%;}
 .productRow > div{margin:5px 0}
+.products h2{margin-bottom:10px;color:#fe6f10;}
 
+
+/*Product Detail Page*/
+.detailTitle{color:#333;font-size:22px;line-height:normal;}
+.abSection{padding:10px 0;}
+
+.tableContent{width: 100%;max-width: 100%;margin-top: 10px;}
+.tableContent thead tr{background:#e3faff;border-top:1px solid #999999;text-align:left;}
+.tableContent td,th{height:31px;padding-left:20px;}	
+.tableContent tr{border-bottom:1px solid #999999}
+.features p{line-height:25px;margin-top:15px;}
+.image-holder >div{ margin-bottom:10px;}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.responsive-image{width:100%;display: block;max-width: 100%;height:auto;}
+ .table-responsive{border:none !important;}
 /* landscape Media */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .col-xsl-3{ width: 25%; }
@@ -170,12 +190,13 @@ div.productRow img{padding:0;}
     nav .container{
         padding-top:20px;
     }
+    .responsive-image{width:auto;}
     .nav>li>a{padding:5px 11px;font-size: 15px;}
     .nav > li {    margin: 0 0 0 3px;}
     ul.nav{padding: 14px 0 0 0;}
     .logo{width: 170px;background-size: 100%;}
     .hSocial{overflow: hidden;float: right;}
-    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;}
+    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;margin:0;}
     .hSocialL span{display:inline-block; padding:0 5px 0 20px;}
     .hSocialL span a{color:#333;}
     .hSocialL span.msg{background:url(../images/msg.png) 0 center no-repeat;}
