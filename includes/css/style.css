@@ -61,7 +61,7 @@ footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repea
     .hSocialR a.pin{background-position:-136px 0}
     .hSocialR a.rss{background-position:-170px 0}
     .hSocialL{margin:5px;}
-    .hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;}
+    .hSocialL{padding:5px 10px;}
 .hSocialL span{display:inline-block; padding:0 5px 0 20px;}
 .hSocialL span a{color:#888888;}
 .hSocialL span.msg{background:url(../images/msg.png) 0 center no-repeat;}
@@ -122,6 +122,21 @@ p.more a{display:inline-block; color:#333; font-size:14px; background:url(../ima
 
 .abt-me{padding-top:10px}
 .spacing-div{padding:20px 0;}
+
+
+/**About us*/
+.about-us{font-size:13px; color:#666}
+.innerBg{border-bottom:2px solid #666;}
+.aboutUs,.products{padding:20px 0; }
+.abRight ol{padding:15px 0;}
+.abRight ol li{padding:0 0 4px 10px; background: url(../images/bullet.png) 0 7px no-repeat}
+
+.abRight ul{padding:15px 0 5px 0; width:500px;}
+.abRight .jobs span{margin:5px  0; padding:5px 10px; background:#088ADD; color:#FFF;display: block;} /*030F3A*/
+.abTag p{padding:5px 0;}
+.abTag .process{padding-top:10px; padding-bottom:5px;}
+.abTag .process div span{ margin:5px 0 ; padding:5px 57px 5px 10px;background:#088ADD; color:#FFF; font-size:15px; display: block;}
+/* landscape Media */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .col-xsl-3{ width: 25%; }
     .col-xls-6{width:50%;}
@@ -139,7 +154,7 @@ p.more a{display:inline-block; color:#333; font-size:14px; background:url(../ima
 /*Desktop and tablet Media queries*/
  @media only screen and (min-width : 768px) {
      nav{
-        height:97px;
+        height:107px;
     }
     nav .container{
         padding-top:20px;
