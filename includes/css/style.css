@@ -21,9 +21,10 @@ ul, ol {
     height: 69px;
     overflow: hidden;
     float:left;
-    width:245px;
     position: relative;
-    background: url(../images/logo.png) 0 0 no-repeat;
+    background: url(../images/logo.png)no-repeat center center;
+    width: 200px;
+    background-size: 100%;
 }
 nav{
     background: #35b0d4;
