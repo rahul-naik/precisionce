@@ -1,0 +1,164 @@
+*{margin:0; padding:0;outline:0; cursor:default}
+ul,ol{list-style:none;}
+img{border:0;}
+a{text-decoration:none;cursor:pointer;}
+a *{cursor:pointer;}
+table{border-spacing:0; border-collapse:collapse;}
+body{font-family:"Segoe UI"; font-size:13px; color:#333;}
+
+.bodyBg{position:fixed; top:0; left:0; width:100%; height:100%; text-align:center}
+
+
+.wrapper{position:relative;}
+.hBg{position:absolute; top:0; left:0; width:100%; height:425px; background:#35b0d4; z-index:-1}
+.innerBg{height:105px; border-bottom:2px solid #666;}
+
+
+.header,.container,.fData{margin:0 auto; width:1000px;}
+.hTop,.hSocial,.hNav,.hIntro,.cData,.bestSell ul,.abHome,.fData,.abSection,.abRight ul,.abTag ul{overflow:hidden;}
+.hTopLeft,.hSocialL,.hNav ul li,.hIntroL,.cLeft,.bestSell li,.aLeft,.fLeft,.fMid,.abLeft,.abRight ul li,.abTag ul li{float:left; display:inline;}
+.hTopRight,.hSocialR,.hNav ul,.hIntroR,.cRight,.aRight,.fRight,.abRight{float:right; display:inline;}
+
+.header{padding:20px 0 10px 0;}
+.hTopLeft a{display:block; width:245px; height:69px; overflow:hidden; background:url(../images/logo.png) 0 0 no-repeat;}
+.hSocialL{background:url(../images/sBg.png) 0 center repeat-x; padding:5px 10px;}
+.hSocialL span{display:inline-block; padding:0 5px 0 20px;}
+.hSocialL span a{color:#333;}
+.hSocialL span.msg{background:url(../images/msg.png) 0 center no-repeat;}
+.hSocialL span.mail{background:url(../images/mail.png) 0 center no-repeat;}
+.hSocialL span.phone{background:url(../images/phone.png) 0 center no-repeat;}
+
+.hSocialR a{display:inline-block; width:24px; height:24px; margin:2px 0 0 8px; background:url(../images/social.png) 0 0 no-repeat;}
+.hSocialR a.fb{background-position:0 0}
+.hSocialR a.google{background-position:-34px; 0}
+.hSocialR a.twitter{background-position:-68px 0}
+.hSocialR a.link{background-position:-102px 0}
+.hSocialR a.pin{background-position:-136px 0}
+.hSocialR a.rss{background-position:-170px 0}
+
+
+.hNav{padding:14px 0 0 0;}
+.hNav li{margin:0 0 0 3px;}
+.hNav a{display:block; text-transform:uppercase; color:#FFF; font-size:18px; padding:5px 11px;}
+/*.hNav a:hover,.hNav a.active{background:#ff7800;}*/
+
+.hNav a:hover,.hNav a.active{color:#030F3A;}
+
+.hIntro{clear:both;position:relative; padding:15px 0 0 0;}
+.hIntro .hIntroL{width:480px;color:#FFF;}
+.hIntro .hIntroR{width:420px;}
+.hIntro .mBg{position:absolute; top:35px; left:48%; height:230px; width:235px; background:url(../images/motorBg.png) center center no-repeat; z-index:-1; opacity:0.3; filter:alpha(opacity=30)}
+
+.hIntroL{padding-top:40px;}
+.hIntroL h1{font-size:38px; font-weight:normal; font-family:"Segoe UI Light";}
+.hIntroL p{font-size:20px; padding:5px 0;}
+
+.container h2{font-size:22px; color:#030F3A; font-weight:normal; border-left:6px solid #ff6600; padding:2px 0 2px 10px;}
+.cData{padding:20px 0;}
+.cData .cLeft{width:510px;}
+.cData .cRight{width:430px;}
+
+.bestSell{clear:both; padding:20px 0 15px 0;}
+.bestSell li{width:168px; height:153px; background:#FFF url(../images/boxCut.png) top right no-repeat; border:1px solid #cccccc; text-align:center; color:#666666; font-size:15px;}
+.bestSell li div{padding:8px 0;}
+.bestSell li div a{display:block;}
+
+p.more{clear:both;padding:0;}
+p.more a{display:inline-block; color:#333; font-size:14px; background:url(../images/moreArrowBalck.png) right center no-repeat; padding:0 25px 0 0; }
+
+.newL{position:relative; font-size:15px; color:#666666; padding:20px 0 0 170px;}
+.newL img{position:absolute; top:20px; left:0; z-index:99;}
+.newIcon{position:absolute; top:25px; left:75px; background:url(../images/newBg.png) center center no-repeat; height:40px; width:63px; z-index:100; text-align:center;color:#FFF; font-size:15px; padding-top:23px;}
+.newL h3,.fData h4{font-family:"Segoe UI Light";font-size:24px; font-weight:normal;}
+.newL span{padding:5px 0 10px 0;display:block;}
+
+.abHome{clear:both;}
+.aLeft{width:146px;}
+.aRight{width:330px; padding-left:15px;}
+.aRight span{padding:5px 0 10px 15px;display:block;font-size:15px; color:#666666;}
+.aRight p.more{padding-left:15px;}
+
+.testmonial{clear:both;font-size:15px; color:#666666;padding:5px 0 10px 15px;}
+.testmonial span{display:block;}
+.testmonial span img{vertical-align:bottom;}
+.testmonial span img:first-child{vertical-align:baseline}
+.testmonial a{color:#2862a9; font-size:14px;}
+.testmonial p.more{padding-top:10px;}
+
+.footer{border-top:7px solid #35b0d4; background:url(../images/fBg.png) 0 0 repeat;}
+.fData h4{color:#FFF; padding:0 0 10px 0;}
+
+.fData{padding:10px 0;}
+.fLeft{width:270px;}
+.fMid{width:235px;}
+.fRight{width:460px;}
+
+.fLeft p{font-size:14px; color:#888888; padding:0 0 10px 25px;}
+.fLeft p.add{background:url(../images/loc.png) 0 5px no-repeat;}
+.fLeft p.cont{background:url(../images/fPhone.png) 0 5px no-repeat;}
+.fLeft p.email{background:url(../images/fMsg.png) 0 5px no-repeat;}
+
+
+.fMid li{padding:0 0 2px 0;}
+.fMid a{color:#888888; font-size:14px;}
+.fMid a:hover{text-decoration:underline;}
+
+.fRight p{clear:both; padding:0 0 10px 0}
+.fRight p input[type="text"],.fRight p textarea{vertical-align:top; color:#999999; background:#666666; border:1px solid #666666; font-family:"Segoe UI"; font-size:14px; width:210px; margin:0 5px 0 0; padding:5px; cursor:text}
+
+.fRight p textarea{height:70px;width:210px; resize:none}
+.fRight p input[type="button"]{cursor:pointer; background:#088add; color:#FFF; font-size:13px; padding:8px 30px; border:none; overflow:visible; line-height:1.2}
+.fRight p input[type="button"]::-moz-focus-inner{border:0; padding:0;}
+
+
+.copy{text-align:center; color:#888; padding:15px 0;}
+
+
+/*About Us page*/
+.innerPage{}
+.aboutUs,.products{padding:20px 0; font-size:13px; color:#666}
+.aboutUs h2,.products h2{margin-bottom:10px;}
+.abSection{padding:10px 0;}
+.abLeft{width:480px;}
+.abLeft img{width:100%}
+.abRight{width:495px;}
+
+.abRight ol{padding:15px 0;}
+.abRight ol li{padding:0 0 4px 10px; background: url(../images/bullet.png) 0 7px no-repeat}
+
+.abRight ul{padding:15px 0 5px 0; width:500px;}
+.abRight ul li{width:218px; margin:5px 5px 5px 0; padding:5px 10px; background:#088ADD; color:#FFF} /*030F3A*/
+
+.abTag{clear:both;}
+.abTag p{padding:5px 0;}
+.abTag ul{padding-top:10px; padding-bottom:5px;}
+.abTag ul li{width:175px; margin:0 0 0 10px; padding:5px 57px 5px 10px;background:#088ADD; color:#FFF; font-size:15px;}
+.abTag ul li:first-child{margin-left:0;}
+
+/* Product page */
+.products h2{margin-bottom:10px;color:#fe6f10;}
+.products .productBox{padding-top:30px;overflow:hidden;}
+.products .row div{border:1px solid #e3e3e3; float:left;width:233px;background:#FFF;margin-right:15px;padding:0}
+.products .row div:last-child{margin:0;}
+.row div h3{background:#ff7800;color:#fff;padding:5px 10px;font-weight: normal;margin:0;font-size:15px }
+.products .row div span{display:block;padding:10px 10px;font-size:15px;color:#333;text-align:center;}
+div.row{padding-top:15px;overflow:hidden;}
+
+/*Product Detail Page*/
+.detailTitle{color:#333;font-size:22px;line-height:normal;}
+.detailContainer div{margin-right:17px;float:left;border:1px solid #e3e3e3}
+.detailDescription div{margin-right:17px;float:left}
+.detailDescription div:last-child{margin:0;}
+.tableContent{width:500px;margin-top:15px;}
+.tableContent thead tr{background:#e3faff;border-top:1px solid #999999;text-align:left;}
+.tableContent td,th{height:31px;padding-left:20px;}	
+.tableContent tr{border-bottom:1px solid #999999}
+.features{width:450px;}
+.features p{line-height:25px;margin-top:15px;}
+
+
+
+
+
+
+
